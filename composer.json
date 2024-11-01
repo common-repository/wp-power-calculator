@@ -1,0 +1,19 @@
+{
+    "name": "srxwebdesign/wp-power-calculator",
+    "description": "A plugin to calculate power",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "bad_x",
+            "email": "info@srxwebdesign.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WP_POWERCAL\\": "includes/"
+        }
+    }
+}
